@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//Çóì³²¨ÄÇÆõÊıÁĞµÄµÚNÏî
+//æ±‚æ–æ³¢é‚£å¥‘æ•°åˆ—çš„ç¬¬Né¡¹
 long long Fibonacci_2(unsigned int n)
 {
     int result[2] = {0 , 1};
