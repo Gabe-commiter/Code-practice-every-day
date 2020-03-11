@@ -25,7 +25,7 @@ bool IsPopOrder(const int* pPush, const int* pPop,int nLength)
             stackData.pop();
             pNextPop ++;
         }
-        if(stackData.empty() && pNextPop - pPop == nLength)
+        if(stackData.empty() && pNextPop - pPop == nLength)//这里的判断是？？
             bPossible = true;
 
     }
