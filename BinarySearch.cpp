@@ -65,3 +65,4 @@ int main(){
     vector<int>nums = {1,2,2,3,4,6};
     cout<<right_bound(nums,6);
 }
+//测试atom
