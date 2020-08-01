@@ -62,6 +62,7 @@ int partion(vector<int>&nums, int l, int r){
             ++l;
         nums[r] = nums[l];
     }
+    nums[l] = privot;
     return l;
 
 
