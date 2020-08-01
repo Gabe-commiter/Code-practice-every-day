@@ -16,14 +16,14 @@ void bubble_sort(vector<int >& nums){
 // ÷–¥—°‘Ò≈≈–Ú
 void mysel_sort(vector<int> &nums){
     for (int i = 0; i < nums.size()-1; ++i) {
-        int k = i;
+        int smallest = i;
         for(int j = i+1;j<nums.size();++j)
         {
-            if(nums[j] < nums[k])
-                k = j;
+            if(nums[j] < nums[smallest])
+                smallest = j;
         }
-        if(k != i)
-            swap(nums[i],nums[k]);
+        if(smallest != i)
+            swap(nums[i],nums[smallest]);
     }
 }
 // ÷–¥≤Â»Î≈≈–Ú
