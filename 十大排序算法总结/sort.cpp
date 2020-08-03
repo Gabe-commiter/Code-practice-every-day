@@ -69,7 +69,7 @@ int partion(vector<int>&nums, int l, int r){
 }
 void quick_sort(vector<int>& nums,int l ,int r){
   if(r-l < 2)return;
-  int mid = partion(nums,l,r);
+  int mid = partion(nums,l,r-1);
   quick_sort(nums,l,mid);
   quick_sort(nums,mid+1,r);
 }
